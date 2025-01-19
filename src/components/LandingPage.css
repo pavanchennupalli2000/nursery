@@ -1,0 +1,45 @@
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../th.jpg ");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.landing-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    
+    
+   
+}
+
+.get-started-button {
+    background-color: #260edb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.get-started-button:hover {
+    background-color: #c5111d;
+}
+
+.description {
+    max-width: 800px;
+    margin: 20px;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
